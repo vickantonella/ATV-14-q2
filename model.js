@@ -1,9 +1,9 @@
 // model.js
-const db = require('./db');
+const bd = require('./bd');
 
 function createUser(username, password) {
   return new Promise((resolve, reject) => {
-    db.query('INSERT INTO users (username, password) VALUES (?, ?)', [username, password], (err, results) => {
+    bd.query('INSERT INTO users (username, password) VALUES (?, ?)', [username, password], (err, results) => {
       if (err) {
         reject(err);
       } else {
@@ -15,7 +15,7 @@ function createUser(username, password) {
 
 function getUserByUsername(username) {
   return new Promise((resolve, reject) => {
-    db.query('SELECT * FROM users WHERE username = ?', [username], (err, results) => {
+    bd.query('SELECT * FROM users WHERE username = ?', [username], (err, results) => {
       if (err) {
         reject(err);
       } else {
@@ -27,7 +27,7 @@ function getUserByUsername(username) {
 
 function getAllUsers() {
   return new Promise((resolve, reject) => {
-      db.query('SELECT * FROM users', (err, results) => {
+      bd.query('SELECT * FROM users', (err, results) => {
           if (err) {
               reject(err);
           } else {
