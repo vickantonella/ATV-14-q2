@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <link rel="stylesheet" href="/css/user.css">
+</head>
+<body>
+    <h2>Bem-vindo, <%= user.username %>!</h2>
+    <div class="for">
+    <p>Esta é a página do usuário. Você está logado.</p>
+    <p><strong>Usuario: </strong><%= user.username %></p>
+    <p><strong>Senha: </strong><%= user.password %></p>
+    <form action="/logout" method="get">
+        <button type="submit">logout</button>
+    </form>
+    <form action="/listUsers" method="get"> <!-- Adicionando o formulário para listar usuários -->
+        <button type="submit">Listar Usuários</button>
+    </form>
+    </div>
+</body>
+</html>
