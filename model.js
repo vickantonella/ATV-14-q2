@@ -27,18 +27,6 @@ function getUserByUsername(username) {
 
 function getAllUsers() {
   return new Promise((resolve, reject) => {
-    db.query('SELECT * FROM users', (err, results) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(results);
-      }
-    });
-  });
-}
-
-function getAllUsers() {
-  return new Promise((resolve, reject) => {
       db.query('SELECT * FROM users', (err, results) => {
           if (err) {
               reject(err);
