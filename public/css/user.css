@@ -1,0 +1,28 @@
+.for {
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Cor de fundo */
+}
+
+h2 {
+    text-align: center; /* Centralize o título */
+    margin-top: 0; /* Remova a margem superior padrão */
+}
+
+button {
+    display: block; /* Certifique-se de que o botão ocupa toda a largura */
+    margin: 10px auto; /* Centralize o botão */
+    padding: 10px 20px; /* Adicione preenchimento interno */
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    border: none; /* Remova a borda */
+    color: #fff; /* Cor do texto */
+    border-radius: 3px; /* Arredonde as bordas */
+    cursor: pointer; /* Adicione um cursor de ponteiro ao passar o mouse sobre o botão */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}

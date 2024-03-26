@@ -1,0 +1,71 @@
+body {
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px; /* Adicionado para espaçamento interno */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center; /* Centralizado */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+.atencao {
+    margin: 10px; /* Ajuste conforme necessário */
+    border: 2px solid #f00; /* Cor da borda */
+    border-radius: 8px; /* Raio da borda arredondada */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombreamento */
+    padding: 20px; /* Adicione um preenchimento interno conforme necessário */
+}
