@@ -1,14 +1,14 @@
 body {
-    border: 1px solid #ccc;
+    border: 8px solid #ccc;
     width: 300px;
     margin: auto;
     border-radius: 5px;
-    padding: 20px; /* Adicionado para espaçamento interno */
+    padding: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    text-align: center; /* Centralizado */
+    text-align: center;
 }
 
 form {
@@ -27,13 +27,13 @@ input[type="password"] {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
 }
 
 button[type="submit"] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #611670;
     color: white;
     padding: 10px;
     border: none;
@@ -42,11 +42,11 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: purple;
 }
 
 .error {
-    color: red;
+    color: purple;
 }
 
 .link {
@@ -55,7 +55,7 @@ button[type="submit"]:hover {
 }
 
 .link a {
-    color: #007bff;
+    color: #320347;
     text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ button[type="submit"]:hover {
 }
 .atencao {
     margin: 10px; /* Ajuste conforme necessário */
-    border: 2px solid #f00; /* Cor da borda */
+    border: 2px solid purple; /* Cor da borda */
     border-radius: 8px; /* Raio da borda arredondada */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombreamento */
     padding: 20px; /* Adicione um preenchimento interno conforme necessário */
